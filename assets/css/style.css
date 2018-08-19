@@ -71,10 +71,22 @@ span{
     right: 10px;
 }
 
+label{
+    color: #ffffff;
+}
+
+.form-group{
+    width: 500px;
+}
+
+#contactForm{
+    padding-left: 86px;
+}
+
 footer{
     background-color: #343a40; 
     text-align: center; 
-    color: #ffffff;
+    color: #422c2c;
     border-top: solid #2e579b 5px;
     height: 45px; 
     width: 100%;
