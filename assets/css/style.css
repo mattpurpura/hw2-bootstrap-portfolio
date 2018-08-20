@@ -75,11 +75,15 @@ label{
 }
 
 .form-group{
-    width: 500px;
+    width: 100%;
 }
 
 #contactForm{
     padding-left: 86px;
+}
+
+form{
+    width: 90%;
 }
 
 footer{
