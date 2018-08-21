@@ -67,11 +67,6 @@ label{
     color: #ffffff;
 }
 
-.form-group{
-    width: 100%;
-}
-
-
 form{
     width: 90%;
 }
@@ -84,5 +79,4 @@ footer{
     height: 45px; 
     width: 100%;
     padding-top: 10px;
-    z-index: 2;
 }
