@@ -13,18 +13,20 @@ body{
 .navbar-brand{
     background-color:#2e579b;
     color: #343a40;
-    margin-left: 200px;
-    padding: 10px;
 }
 
 .container{
     margin-top: 20px;
     padding: 10px;
-    margin-bottom: 150px;
+    margin-bottom: 350px;
 }
 
 .contactContainer{
-    margin-bottom: 250px;
+    margin-bottom: 450px;
+}
+
+#portfolioContainer{
+    margin-bottom: 200px;
 }
 
 .mainContent{
@@ -44,15 +46,6 @@ h1{
 p{
     color: #ffffff;
 }
-
-.col-lg-4{
-    padding: 10px;
-}
-
-.col-lg-8{
-    padding: 20px;
-}
-
 
 .figure{
     width: auto;
@@ -78,9 +71,6 @@ label{
     width: 100%;
 }
 
-#contactForm{
-    padding-left: 86px;
-}
 
 form{
     width: 90%;

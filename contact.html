@@ -16,8 +16,8 @@
 </head>
 <body>
 
-    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="#">Matt Purpura</a>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark pl-5 pr-5">
+            <a class="navbar-brand ml-5 p-3" href="#">Matt Purpura</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -31,14 +31,14 @@
         </nav>
 
     <div class="container contactContainer">
-            <div class="row pageTitle">
+            <div class="row pageTitle mx-auto">
                 <div class="col-lg">
                     <h1>Contact</h1>
                 </div>
             </div>
-        <div class="row mainContent" id="contactForm">
+        <div class="row mainContent mx-auto pb-2" id="contactForm">
             <div class="col-lg">
-                <form>
+                <form class= "mx-auto">
                     <div class="form-group">
                         <label for="exampleFormControlInput1">Name</label>
                         <input type="email" class="form-control" id="exampleFormControlInput1 Name" placeholder="John Doe">
@@ -50,6 +50,7 @@
                     <div class="form-group">
                         <label for="exampleFormControlTextarea1">Message</label>
                         <textarea class="form-control" id="exampleFormControlTextarea1 Message" rows="3"></textarea>
+                        <button type="submit" class="btn btn-primary mt-3">Submit</button>
                     </div>
                 </form>
             </div>
